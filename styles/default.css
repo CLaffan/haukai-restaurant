@@ -119,13 +119,13 @@ div.main{ /*used for text area*/
 }
 
 .button {
-  font-family: 'Roboto';
+  font-family: 'Trebuchet MS', sans-serif;
   object-position: center;
   background-color: #502f4c; 
   border: none;
   border-radius: 12px;
   color: black;
-  padding: 10px;
+  padding: 10px 60px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
