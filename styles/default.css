@@ -1,0 +1,369 @@
+* { box-sizing: border-box;}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  div.left {display: none;}
+  div.right {display: none;}
+  div.menu-left {display: none;}
+  div.menu-right {display: none;}
+}
+
+.logo{
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
+h1, h2, h3, h5 {
+  font-family: 'Rock Salt';
+  text-align: center;
+  color: #c8b8d8;
+}
+
+body {
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.about-img {
+  padding: 10px;
+  width: 50%;
+  height: 350px;
+  object-fit: contain;
+  float: right;
+}
+
+.nav {
+  .col-12 {background-color: #70587c;}
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #70587c;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  font-family: 'Roboto';
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #c8b8d8;}
+
+ul.topnav li a.active {background-color: #502f4c;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+div.main{ /*used for text area*/
+  width: 100%;
+  color: #c8b8d8;
+  h1 {text-align: center;}
+  h2 {text-align: center;}
+  p {text-align: center;}
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.about-main {
+  
+}
+
+.button {
+  font-family: 'Roboto';
+  object-position: center;
+  background-color: #502f4c; 
+  border: none;
+  border-radius: 12px;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-menu {
+  justify-self: center;
+  font-family: 'Roboto';
+  background-color: #502f4c; 
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/*styling for all links on page*/
+a:link {
+  color: #c8b8d8;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*styling for all links on page*/
+a:visited {
+  color: #c8b8d8;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*styling for all links on page*/
+a:hover {
+  color: #70587c;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*styling for all links on page*/
+a:active {
+  color: #c8b8d8;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*styling the footer across all pages*/
+.footer-left{ 
+  color: #c8b8d8;
+  text-align: center;
+}
+
+/*styling the footer across all pages*/
+.footer-mid{ 
+  color: #c8b8d8;
+  text-align: center;
+}
+
+/*styling the footer across all pages*/
+.footer-right{ 
+  color: #c8b8d8;
+  text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 500px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect for links */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: none;
+  color: white;
+}
+
+/*YouTube*/
+.fa-youtube {
+  background: none;
+  color: white;
+}
+
+/*Instagram*/
+.fa-instagram {
+  background: none;
+  color: white;
+}
+
+.menu-main{ 
+  h1 {text-align: center;}
+  p {text-align: center;}
+}
+
+/*table properties for menu - listed seperatly if changes need to be made*/
+.appetizers {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #c8b8d8;
+  color: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*table properties for menu*/
+.mains {
+  border: 1px solid;
+  text-align: center;
+  background-color: #c8b8d8;
+  color: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*table properties for menu*/
+.desserts {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #c8b8d8;
+  color: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*table properties for menu*/
+.red-wine {
+  border: 1px solid;
+  text-align: center;
+  background-color: #c8b8d8;
+  color: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*table properties for menu*/
+.white-wine {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #c8b8d8;
+  color: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*table properties for menu*/
+.beer {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #c8b8d8;
+  color: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*table properties for menu*/
+.non-alcohol {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  background-color: #c8b8d8;
+  color: black;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*centering images on local cuisine page*/
+.center {
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Container needed to position the overlay. Adjust the width as needed - for local cuisine images */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive - this is for the local cuisine images */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image - for local cuisine images */
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #c8b8d8;
+}
+
+/* When you mouse over the container, fade in the overlay title - for local cuisine images */
+.container:hover .overlay {opacity: 1;}
+
+/* text for local cuisine images*/
+.text {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contact-map {
+  align-items: center;
+  color: #c8b8d8;
+}
+
+
+
+
