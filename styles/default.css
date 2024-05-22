@@ -64,7 +64,7 @@ body {
 }
 
 .nav {
-  .col-12 {background-color: #70587c;}
+  .col-12 {background-color: #c8b8d8;}
 }
 
 ul.topnav {
@@ -72,7 +72,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #b8c8d8;
+  background-color: #70587c;
 }
 
 ul.topnav li {float: left;}
