@@ -64,7 +64,7 @@ body {
 }
 
 .nav {
-  .col-12 {background-color: #c8b8d8;}
+  .col-12 {background-color: #81a7aa;}
 }
 
 ul.topnav {
@@ -72,7 +72,7 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #c8b8d8;
+  background-color: #81a7aa;
 }
 
 ul.topnav li {float: left;}
@@ -121,7 +121,7 @@ div.main{ /*used for text area*/
 .button {
   font-family: 'Trebuchet MS', sans-serif;
   object-position: center;
-  background-color: #502f4c; 
+  background-color: #81a7aa; 
   border: none;
   border-radius: 12px;
   color: black;
@@ -136,7 +136,7 @@ div.main{ /*used for text area*/
 .button-menu {
   justify-self: center;
   font-family: 'Trebuchet MS', sans-serif;
-  background-color: #502f4c; 
+  background-color: #81a7aa; 
   border: none;
   color: black;
   padding: 12px 60px
