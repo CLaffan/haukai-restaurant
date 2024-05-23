@@ -42,13 +42,13 @@
 }
 
 h1, h2, h3, h5 {
-  font-family: 'Rock Salt';
+  font-family: Copperplate, Papyrus, fantasy;
   text-align: center;
   color: #81a7aa;
 }
 
 body {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   font-size: 15px;
   background-color: black;
   color: white;
@@ -138,7 +138,7 @@ div.main{ /*used for text area*/
 }
 
 .button {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   object-position: center;
   background-color: #81a7aa; 
   border: none;
@@ -154,7 +154,7 @@ div.main{ /*used for text area*/
 
 .button-menu {
   justify-self: center;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   background-color: #81a7aa; 
   border: none;
   color: black;
@@ -251,7 +251,7 @@ a:active {
 
 /*table properties for menu - listed seperatly if changes need to be made*/
 .appetizers {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica,sans-serif;
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
@@ -264,7 +264,7 @@ a:active {
 
 /*table properties for menu*/
 .mains {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   border: 1px solid;
   text-align: center;
   background-color: #c8b8d8;
@@ -276,7 +276,7 @@ a:active {
 
 /*table properties for menu*/
 .desserts {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
@@ -289,7 +289,7 @@ a:active {
 
 /*table properties for menu*/
 .red-wine {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   border: 1px solid;
   text-align: center;
   background-color: #c8b8d8;
@@ -301,7 +301,7 @@ a:active {
 
 /*table properties for menu*/
 .white-wine {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
@@ -314,7 +314,7 @@ a:active {
 
 /*table properties for menu*/
 .beer {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
@@ -327,7 +327,7 @@ a:active {
 
 /*table properties for menu*/
 .non-alcohol {
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
@@ -379,7 +379,7 @@ a:active {
 /* text for local cuisine images*/
 .text {
   color: black;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
   font-size: 20px;
   position: absolute;
   top: 50%;
