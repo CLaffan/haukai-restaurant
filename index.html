@@ -35,20 +35,20 @@
         <li><a href="./contact_us/contact_us.html">Contact Us</a></li>
         <li><a href="./hours/hours.html">Opening Hours</a></li>
       </ul>
-    </div>
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links delete if needed-->
+       <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links delete if needed-->
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
+    </div>
   </div>
 <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links delete if needed-->
   <script>
 function myFunction() {
   var x = document.getElementById("pageLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  if (x.className === "topnav") {
+    x.className += " responsive";
   } else {
-    x.style.display = "block";
+    x.className = "topnav";
   }
 }
 </script>
