@@ -44,7 +44,7 @@
 h1, h2, h3, h5 {
   font-family: 'Rock Salt';
   text-align: center;
-  color: #c8b8d8;
+  color: #81a7aa;
 }
 
 body {
@@ -69,13 +69,13 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #81a7aa;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #81a7aa;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -88,7 +88,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #81a7aa;
   color: white;
 }
 
@@ -120,7 +120,7 @@ body {
 
 div.main{ /*used for text area*/
   width: 100%;
-  color: #c8b8d8;
+  color: #81a7aa;
   h1 {text-align: center;}
   h2 {text-align: center;}
   p {text-align: center;}
