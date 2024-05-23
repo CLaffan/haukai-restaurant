@@ -177,6 +177,12 @@ a:visited {
   text-decoration: none;
 }
 
+.fa fa-facebook a:visited {
+  columns: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 /*styling for all links on page*/
 a:hover {
   color: #70587c;
