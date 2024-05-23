@@ -167,7 +167,7 @@ div.main{ /*used for text area*/
 
 /*styling for all links on page*/
 a:link {
-  color: #c8b8d8;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
@@ -188,7 +188,7 @@ a:hover {
 
 /*styling for all links on page*/
 a:active {
-  color: #c8b8d8;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
