@@ -9,6 +9,8 @@
   <link rel='stylesheet' type='text/css' href='./styles/default.css'>
   <!--font for social media-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens delete if needed-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -24,7 +26,7 @@
 
   <div class="nav">
     <div class="col-12">
-      <ul class="topnav">
+      <ul class="topnav" id="pageLinks">
         <li><a href="./index.html">Home</a></li>
         <li><a href="./menu/menu.html">Menu</a></li>
         <li><a href="./local_cuisine/local_cuisine.html">Local Cuisine</a></li>
@@ -34,7 +36,22 @@
         <li><a href="./hours/hours.html">Opening Hours</a></li>
       </ul>
     </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links delete if needed-->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
   </div>
+<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links delete if needed-->
+  <script>
+function myFunction() {
+  var x = document.getElementById("pageLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 
   <main> <!--tells screen readers this is the main content of the page-->
     <div class="main">
