@@ -174,7 +174,7 @@ a:link {
 
 /*styling for all links on page*/
 a:visited {
-  color: #c8b8d8;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
