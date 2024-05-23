@@ -99,10 +99,7 @@ ul.topnav li a.active {background-color: #502f4c;}
 
 ul.topnav li.right {float: right;}
 
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
+
 
 @media screen and (max-width: 600px) {
   ul.topnav a:not(:first-child) {display: none;}
