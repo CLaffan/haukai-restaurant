@@ -71,7 +71,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -146,7 +146,7 @@ div.main{ /*used for text area*/
 
 .button-menu {
   justify-self: center;
-  width: 15%;
+  width: 50px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;;
   background-color: #8CA6A7; 
   border: none;
