@@ -159,6 +159,7 @@ div.main{ /*used for text area*/
 
 /*styling for all links on page*/
 a:link {
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
