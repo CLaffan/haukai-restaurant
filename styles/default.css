@@ -235,6 +235,12 @@ a:active {
   p {text-align: center;}
 }
 
+.imgMenu {
+  width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+}
+
 /*table properties for menu - listed seperatly if changes need to be made*/
 .appetizers {
   border: 1px solid;
