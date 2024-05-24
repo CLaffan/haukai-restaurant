@@ -51,7 +51,7 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 15px;
   background-color: black;
-  color: white;
+  color: #8CA6A7;
   cursor: pointer;
 }
 
@@ -146,7 +146,7 @@ div.main{ /*used for text area*/
 
 .button-menu {
   justify-self: center;
-  width: 50px;
+  width: 25%;
   font-family: "Trebuchet MS", Helvetica, sans-serif;;
   background-color: #8CA6A7; 
   border: none;
@@ -166,7 +166,7 @@ a:link {
 
 /*styling for all links on page*/
 a:hover {
-  color: #70587c;
+  color: #;
   background-color: transparent;
   text-decoration: none;
 }
