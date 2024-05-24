@@ -133,7 +133,6 @@ div.main{ /*used for text area*/
 
 .button {
   font-family: "Trebuchet MS", Helvetica, sans-serif;;
-  width: 15%;
   background-color: #8CA6A7; 
   border: none;
   border-radius: 12px;
@@ -373,8 +372,6 @@ a:active {
   color: #8CA6A7;
 }
 
-footer {
-  color: white;
-}
+
 
 
