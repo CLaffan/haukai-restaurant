@@ -145,17 +145,12 @@ div.main{ /*used for text area*/
 
 /*styling for all links on page*/
 a:link {
-  color: #c8b8d8;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
-/*styling for all links on page*/
-a:visited {
-  color: #c8b8d8;
-  background-color: transparent;
-  text-decoration: none;
-}
+
 
 /*styling for all links on page*/
 a:hover {
