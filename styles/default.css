@@ -145,7 +145,7 @@ div.main{ /*used for text area*/
   cursor: pointer;
 }
 
-.button-menu {
+.buttonMenu {
   justify-self: center;
   width: 25%;
   font-family: "Trebuchet MS", Helvetica, sans-serif;;
