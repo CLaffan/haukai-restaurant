@@ -126,7 +126,7 @@ div.main{ /*used for text area*/
   display: block;
     margin-left: auto;
     margin-right: auto;
-    max-height: 250px;
+    max-height: 350px;
     width: 100%;
     object-fit: contain;
 }
@@ -137,7 +137,7 @@ div.main{ /*used for text area*/
   border: none;
   border-radius: 12px;
   color: black;
-  padding: 14px 40px;
+  width: 25%;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
