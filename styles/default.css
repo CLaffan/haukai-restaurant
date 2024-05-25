@@ -153,7 +153,6 @@ div.main{ /*used for text area*/
 }
 
 .buttonMenu {
-  justify-self: center;
   width: 25%;
   font-family: "Trebuchet MS", Helvetica, sans-serif;;
   background-color: #8CA6A7; 
@@ -166,22 +165,29 @@ div.main{ /*used for text area*/
 }
 
 /*styling for all links on page*/
+
+/*unvisited link*/
 .button a:link {
   color: black;
   background-color: transparent;
   text-decoration: none;
 }
 
-/*styling for all links on page*/
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/*mouse over link and color will change*/
 a:hover {
-  color: none;
+  color: purple;
   background-color: transparent;
   text-decoration: none;
 }
 
-/*styling for all links on page*/
+/*selected link*/
 a:active {
-  color: #8CA6A7;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
