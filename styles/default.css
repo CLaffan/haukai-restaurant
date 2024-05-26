@@ -163,7 +163,9 @@ div.main{ /*used for text area*/
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttonConMenu {
@@ -178,7 +180,9 @@ div.main{ /*used for text area*/
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttonMenu {
