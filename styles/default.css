@@ -151,6 +151,10 @@ div.main{ /*used for text area*/
   cursor: pointer;
 }
 
+div.buttonContainer {
+  text-align: center;
+}
+
 .buttonConRes {
   font-family: "Trebuchet MS", Helvetica, sans-serif;;
   background-color: #8CA6A7; 
@@ -163,7 +167,6 @@ div.main{ /*used for text area*/
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  display: inline-block;
 }
 
 .buttonConMenu {
