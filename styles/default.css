@@ -152,11 +152,11 @@ div.main{ /*used for text area*/
 }
 
 .buttonConRes {
-  float: right;
+  float: left;
 }
 
 .buttonConMenu {
-  float: left;
+  float: right;
 }
 
 .buttonMenu {
