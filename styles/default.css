@@ -29,10 +29,12 @@
   [class*="col-"] {
     width: 100%;
   }
-  div.left {display: none;}
-  div.right {display: none;}
+  div.contactLeft {display: none;}
+  div.contactRight {display: none;}
   div.menu-left {display: none;}
   div.menu-right {display: none;}
+  div.indexConL {display: none;}
+  div.indexConR {display: none;}
 }
 
 .logo{
@@ -157,7 +159,6 @@ div.main{ /*used for text area*/
   border: none;
   color: black;
   width: 50%;
-  float: right;
   padding: 25px;
   text-align: center;
   text-decoration: none;
@@ -172,7 +173,6 @@ div.main{ /*used for text area*/
   border: none;
   color: black;
   width: 50%;
-  float: left;
   padding: 25px;
   text-align: center;
   text-decoration: none;
@@ -205,6 +205,7 @@ div.main{ /*used for text area*/
 /* visited link */
 a:visited {
   color: black;
+  text-decoration: none;
 }
 
 /*mouse over link and color will change*/
