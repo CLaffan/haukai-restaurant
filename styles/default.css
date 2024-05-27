@@ -194,7 +194,7 @@ div.main{ /*used for text area*/
 /*styling for all links on page*/
 
 /*unvisited link*/
-.button a:link {
+a:link {
   color: black;
   background-color: transparent;
   text-decoration: none;
