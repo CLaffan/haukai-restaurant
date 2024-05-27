@@ -208,7 +208,7 @@ a:visited {
 
 /*mouse over link and color will change*/
 a:hover {
-  color: purple;
+  color: black;
   background-color: transparent;
   text-decoration: none;
 }
