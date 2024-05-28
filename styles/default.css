@@ -152,8 +152,8 @@ div.main{ /*used for text area*/
 
 .buttonConRes {
   font-family: "Trebuchet MS", Helvetica, sans-serif;;
-  background-color: black; 
-  border: 8px solid #8CA6A7;
+  background-color: white; 
+  border: 8px solid black;
   border-radius: 8px;
   color: #8CA6A7;
   padding: 25px;
@@ -254,19 +254,19 @@ a:active {
 
 /* Facebook */
 .fa-facebook {
-  background: none;
+  background: 	#1877F2;
   color: white;
 }
 
 /*YouTube*/
 .fa-youtube {
-  background: none;
+  background: #FF0000;
   color: white;
 }
 
 /*Instagram*/
 .fa-instagram {
-  background: none;
+  background: #833AB4;
   color: white;
 }
 
