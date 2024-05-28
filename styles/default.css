@@ -125,8 +125,6 @@ body {
 div.main{ /*used for text area*/
   width: 100%;
   color: #8CA6A7;
-  h1 {text-align: center;}
-  h2 {text-align: center;}
   p {text-align: center;}
 }
 
@@ -251,16 +249,13 @@ a:active {
 }
 
 /* Add a hover effect for links */
-.fa:hover {
-  opacity: 0.7;
-}
+.fa:hover {opacity: 0.7;}
 
-.fa:link {color: white;}
+.fa:link {color: #8CA6A7;}
 
-.fa:visited {color: white;}
+.fa:visited {color: #8CA6A7;}
 
-
-.fa:active {color: white;}
+.fa:active {color: #8CA6A7;}
 
 /* Set a specific color for each brand */
 
