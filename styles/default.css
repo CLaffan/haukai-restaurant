@@ -51,6 +51,8 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 15px;
   background-color: black;
+  color: #8CA6A7;
+  cursor: pointer;
 }
 
 .about-img {
@@ -64,7 +66,6 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #8CA6A7;
-  color: black;
 }
 
 .topnav a {
@@ -96,7 +97,6 @@ body {
   .topnav a.icon {
     float: right;
     display: block;
-    color: black;
   }
 }
 
@@ -151,10 +151,14 @@ div.main{ /*used for text area*/
   cursor: pointer;
 }
 
+div.buttonContainer {
+  text-align: center;
+}
+
 .buttonConRes {
   font-family: "Trebuchet MS", Helvetica, sans-serif;;
   background-color: #8CA6A7; 
-  border-radius: 8px;
+  border: none;
   color: black;
   padding: 25px;
   text-align: center;
@@ -162,32 +166,42 @@ div.main{ /*used for text area*/
   display: block;
   width: 50%;
   font-size: 16px;
-  margin: auto;
   cursor: pointer;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.buttonConMenu {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;;
+  background-color: #8CA6A7; 
+  border: none;
+  color: black;
+  width: 50%;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttonMenu {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  width: 25%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;;
   background-color: #8CA6A7; 
   border: none;
-  border-radius: 8px;
   color: black;
-  width: 50%;
-  padding: 25px;
   text-align: center;
   text-decoration: none;
-  display: block;
-  font-size: 16px;
-  margin: auto;
+  font-size: 15px;
   cursor: pointer;
-}
-
-.buttonTop {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  background-color: #8CA6A7; 
-  border: none;
-  color: black;
-  text-decoration: none;
 }
 
 /*styling for all links on page*/
@@ -239,10 +253,10 @@ a:active {
 
 /* Style all font awesome icons */
 .fa {
+  font-size: 500px;
   width: 30px;
   text-align: center;
   text-decoration: none;
-  color: #8CA6A7;
 }
 
 /* Add a hover effect for links */
@@ -254,19 +268,19 @@ a:active {
 
 /* Facebook */
 .fa-facebook {
-  background: 	#1877F2;
+  background: none;
   color: white;
 }
 
 /*YouTube*/
 .fa-youtube {
-  background: #FF0000;
+  background: none;
   color: white;
 }
 
 /*Instagram*/
 .fa-instagram {
-  background: #833AB4;
+  background: none;
   color: white;
 }
 
@@ -277,7 +291,7 @@ a:active {
 
 .imgMenu {
   width: 100%;
-  max-height: 350px;
+  max-height: 250px;
   object-fit: contain;
 }
 
@@ -417,6 +431,7 @@ a:active {
   align-items: center;
   color: #8CA6A7;
 }
+
 
 
 
