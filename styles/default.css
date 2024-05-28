@@ -243,6 +243,7 @@ a:active {
   width: 30px;
   text-align: center;
   text-decoration: none;
+  border-radius: 12px;
 }
 
 /* Add a hover effect for links */
