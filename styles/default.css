@@ -238,10 +238,10 @@ a:active {
 
 /* Style all font awesome icons */
 .fa {
-  font-size: 500px;
   width: 30px;
   text-align: center;
   text-decoration: none;
+  color: #8CA6A7;
 }
 
 /* Add a hover effect for links */
