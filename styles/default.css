@@ -207,28 +207,28 @@ div.buttonContainer {
 /*styling for all links on page*/
 
 /*unvisited link*/
-.button a:link {
-  color: black;
+a:link {
+  color: initial;
   background-color: transparent;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: initial;
   text-decoration: none;
 }
 
 /*mouse over link and color will change*/
 a:hover {
-  color: purple;
+  color: #833AB4;
   background-color: transparent;
   text-decoration: none;
 }
 
 /*selected link*/
 a:active {
-  color: black;
+  color: initial;
   background-color: transparent;
   text-decoration: none;
 }
