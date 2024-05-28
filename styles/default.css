@@ -255,13 +255,12 @@ a:active {
   opacity: 0.7;
 }
 
-.fa a:link {color: white;}
+.fa:link {color: white;}
 
-.fa a:visited {color: white;}
+.fa:visited {color: white;}
 
-.fa a:hover {color: white;}
 
-.fa a:active {color: white;}
+.fa:active {color: white;}
 
 /* Set a specific color for each brand */
 
