@@ -76,13 +76,22 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+.topnav
+
+.topnav a:link {
+  color: black;
+}
+
+.topnav a:visited {
+  color: black;
+}
 
 .topnav a:hover {
   background-color: #8CA6A7;
   color: black;
 }
 
-.topnav a.active {
+.topnav a:active {
   background-color: #8CA6A7;
   color: black;
 }
