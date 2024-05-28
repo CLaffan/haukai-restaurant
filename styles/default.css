@@ -52,7 +52,6 @@ body {
   font-size: 15px;
   background-color: black;
   color: #8CA6A7;
-  cursor: pointer;
 }
 
 .about-img {
@@ -195,27 +194,27 @@ div.main{ /*used for text area*/
 
 /*unvisited link*/
 a:link {
-  color: white;
+  color: #8CA6A7;
   background-color: transparent;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: white;
+  color: #8CA6A7;
   text-decoration: none;
 }
 
 /*mouse over link and color will change*/
 a:hover {
-  color: white;
+  color: #;
   background-color: transparent;
   text-decoration: none;
 }
 
 /*selected link*/
 a:active {
-  color: white;
+  color: #8CA6A7;
   background-color: transparent;
   text-decoration: none;
 }
