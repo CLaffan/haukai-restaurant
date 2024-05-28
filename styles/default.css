@@ -195,27 +195,27 @@ div.main{ /*used for text area*/
 
 /*unvisited link*/
 a:link {
-  color: black;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 /*mouse over link and color will change*/
 a:hover {
-  color: black;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
 
 /*selected link*/
 a:active {
-  color: black;
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
