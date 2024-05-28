@@ -180,7 +180,7 @@ div.main{ /*used for text area*/
   margin: auto;
 }
 
-.buttonTop {
+buttonTop {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background-color: #8CA6A7;
   color: black;
@@ -197,7 +197,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: inherit;
+  color: initial;
   text-decoration: none;
 }
 
