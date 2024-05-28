@@ -193,26 +193,27 @@ div.main{ /*used for text area*/
 
 /*unvisited link*/
 a:link {
-  color: initial;
+  color: inherit;
   background-color: transparent;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
+  color: inherit
   text-decoration: none;
 }
 
 /*mouse over link and color will change*/
 a:hover {
-  color: #833AB4;
+  color: inherit;
   background-color: transparent;
   text-decoration: none;
 }
 
 /*selected link*/
 a:active {
-  color: initial;
+  color: inherit;
   background-color: transparent;
   text-decoration: none;
 }
