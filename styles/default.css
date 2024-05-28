@@ -51,6 +51,7 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 15px;
   background-color: black;
+  color: #8CA6A7;
 }
 
 .about-img {
@@ -64,7 +65,6 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #8CA6A7;
-  color: black;
 }
 
 .topnav a {
@@ -75,6 +75,16 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #8CA6A7;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #8CA6A7;
+  color: black;
 }
 
 .topnav .icon {
@@ -183,27 +193,27 @@ div.main{ /*used for text area*/
 
 /*unvisited link*/
 a:link {
-  color: inherit;
+  color: initial;
   background-color: transparent;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: inherit;
+  color: initial;
   text-decoration: none;
 }
 
 /*mouse over link and color will change*/
 a:hover {
-  color: inherit;
+  color: #833AB4;
   background-color: transparent;
   text-decoration: none;
 }
 
 /*selected link*/
 a:active {
-  color: inherit;
+  color: initial;
   background-color: transparent;
   text-decoration: none;
 }
