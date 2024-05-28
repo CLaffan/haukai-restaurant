@@ -77,16 +77,6 @@ body {
   font-size: 17px;
 }
 
-.topnav a:hover {
-  background-color: #8CA6A7;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #8CA6A7;
-  color: black;
-}
-
 .topnav .icon {
   display: none;
 }
