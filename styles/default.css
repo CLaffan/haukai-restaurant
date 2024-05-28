@@ -202,7 +202,6 @@ a:link {
 /* visited link */
 a:visited {
   color: #8CA6A7;
-  text-decoration: none;
 }
 
 /*mouse over link and color will change*/
