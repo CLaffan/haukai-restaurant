@@ -67,6 +67,7 @@ body {
   background-color: #8CA6A7;
   height: 70px;
   width: 100%;
+  line-height: 70px;
 }
 
 .topnav a {
