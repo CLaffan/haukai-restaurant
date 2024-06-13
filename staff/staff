@@ -42,11 +42,11 @@
         <a href="../index.html">Home</a>
         <a href="../menu/menu.html">Menu</a>
         <a href="../local_cuisine/local_cuisine.html">Local Cuisine</a>
-        <a href="./reservations.html">Reservations</a>
+        <a href="../reservations/reservations.html">Reservations</a>
         <a href="../about_us/about_us.html">About Us</a>
         <a href="../contact_us/contact_us.html">Contact Us</a>
         <a href="../hours/hours.html">Opening Hours</a>
-        <a href="../staff/staff">Staff</a>
+        <a href="./staff">Staff</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
@@ -59,13 +59,10 @@
       <div class="col-2"></div>
     </div>
 
-    <main class="reservations-main">
+    <main class="staff-main">
       <div class="col-8">
-        <iframe width="100%" height="700px"
-          src="https://forms.office.com/Pages/ResponsePage.aspx?id=-uIZzDwIpU-1IWz8KXTop1goQnVER6NOsshtKQ9Hz7pUQjEwQkE5SEQ0V0dNTjFCU1lZMU9TUkFPSC4u&embed=true"
-          frameborder="0" marginwidth="0" title="reservations form" marginheight="0" allowfullscreen webkitallowfullscreen mozallowfullscreen
-          title="" msallowfullscreen>
-        </iframe>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTkDRg4ExMt5bJvPmP7mCuUJ_xzqzn4UBy1LiZq2T5GIB71tQQJqs2tYYxYX46wrbJPIvsWhEF2dXI8/pubhtml?gid=1111727723&amp;
+single=true&amp;widget=true&amp;headers=false"></iframe>
       </div>
     </main>
 
@@ -104,3 +101,5 @@
 </body>
 
 </html>
+
+
