@@ -4,10 +4,11 @@
 <head>
     <title>The Haukai Restaurant</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--font was chosen from a selection of Google fonts-->
-    <link href='https://fonts.googleapis.com/css?family=Rock Salt' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel='stylesheet' type='text/css' href='../styles/default.css'>
+    <!--burger icon for responsive navbar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--font for social media-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -25,15 +26,33 @@
 
     <div class="nav">
         <div class="col-12">
-            <ul class="topnav">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./menu.html">Menu</a></li>
-                <li><a href="../local_cuisine/local_cuisine.html">Local Cuisine</a></li>
-                <li><a href="../reservations/reservations.html">Reservations</a></li>
-                <li><a href="../about_us/about_us.html">About Us</a></li>
-                <li><a href="../contact_us/contact_us.html">Contact Us</a></li>
-                <li><a href="../hours/hours.html">Opening Hours</a></li>
-            </ul>
+            <div class="nav">
+                <div class="col-12">
+                    <div class="topnav" id="myTopnav">
+                        <a href="../index.html">Home</a>
+                        <a href="./menu.html">Menu</a>
+                        <a href="../local_cuisine/local_cuisine.html">Local Cuisine</a>
+                        <a href="../reservations/reservations.html">Reservations</a>
+                        <a href="../about_us/about_us.html">About Us</a>
+                        <a href="../contact_us/contact_us.html">Contact Us</a>
+                        <a href="../hours/hours.html">Opening Hours</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+
+                        <script>
+                            function myFunction() {
+                                var x = document.getElementById("myTopnav");
+                                if (x.className === "topnav") {
+                                    x.className += " responsive";
+                                } else {
+                                    x.className = "topnav";
+                                }
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -47,9 +66,9 @@
             <div class="col-8">
                 <h1>Our Menu</h1>
                 <!--navigation buttons to navigate to specific points on the menu-->
-                <button class="button-menu"><a href="#mains">Mains</a></button>
-                <button class="button-menu"><a href="#desserts">Desserts</a></button>
-                <button class="button-menu"><a href="#beverages">Beverages</a></button>
+                <button class="buttonTop"><a href="#mains">Mains</a></button>
+                <button class="buttonTop"><a href="#desserts">Desserts</a></button>
+                <button class="buttonTop"><a href="#beverages">Beverages</a></button>
 
                 <table class="appetizers">
                     <!--appetizers menu-->
@@ -81,10 +100,10 @@
                     </tbody>
                 </table><br>
 
-                <img src="../images/pexels-lexi-simmons-2272352-19559165.jpg" alt="picture of rewena bread" width="100%"
-                    height="auto"><br><br>
+                <img src="../images/pexels-lexi-simmons-2272352-19559165.jpg" class="imgMenu"
+                    alt="picture of rewena bread"><br><br>
 
-                <button class="button-menu" id="mains"><a href="#menu-main">Back to top</a></button>
+                <button class="buttonTop" id="mains"><a href="#menu-main">Back to top</a></button>
                 <table class="mains">
                     <!--mains menu-->
                     <tbody>
@@ -123,9 +142,9 @@
                     </tbody>
                 </table><br>
 
-                <img src="../images/pexels-solliefoto-299347.jpg" alt="venison" width="100%" height="auto"><br><br>
+                <img src="../images/pexels-solliefoto-299347.jpg" class="imgMenu" alt="venison"><br><br>
 
-                <button class="button-menu" id="desserts"><a href="#menu-main">Back to top</a></button>
+                <button class="buttonTop" id="desserts"><a href="#menu-main">Back to top</a></button>
                 <table class="desserts">
                     <!--desserts menu-->
                     <tbody>
@@ -151,10 +170,10 @@
                     </tbody>
                 </table><br>
 
-                <img src="../images/pexels-valeriya-1893566.jpg" alt="photo of Kapiti ice cream" width="100%"
-                    height="auto"><br><br>
+                <img src="../images/pexels-valeriya-1893566.jpg" alt="photo of Kapiti ice cream"
+                    class="imgMenu"><br><br>
 
-                <button class="button-menu" id="beverages"><a href="#menu-main">Back to top</a></button>
+                <button class="buttonTop" id="beverages"><a href="#menu-main">Back to top</a></button>
                 <!--all beverages menu-->
                 <table class="red-wine">
                     <tbody>
@@ -162,6 +181,7 @@
                             <th>Red Wine</th>
                             <th>B/G</th>
                         </tr>
+                        <tr></tr>
                         <tr>
                             <td>Terrace Edge Pinot Noir, 2012, Wairarapa</td>
                             <td>53/13</td>
@@ -198,6 +218,7 @@
                             <th>White Wine</th>
                             <th>B/G</th>
                         </tr>
+                        <tr></tr>
                         <tr>
                             <td>Spade Oak Pinot Gris, 2011, Gisborne</td>
                             <td>40/10</td>
@@ -234,6 +255,7 @@
                         <tr>
                             <th>Beer and Cider</th>
                         </tr>
+                        <tr></tr>
                         <tr>
                             <td>Garage Project range</td>
                             <td>11</td>
@@ -265,6 +287,7 @@
                         <tr>
                             <th>Non-Alcoholic</th>
                         </tr>
+                        <tr></tr>
                         <tr>
                             <td>Mineral water</td>
                             <td>4</td>
@@ -287,18 +310,23 @@
                         </tr>
                     </tbody>
                 </table><br>
-
-                <p class="center"><button class="button"><a href="../reservations/reservations.html">Book a
-                            Table</a></button><button class="button"><a href="../contact_us/contact_us.html">Find
-                            Us</a></button></p>
-
-                <img src="../images/pexels-valeriya-1484516.jpg"
-                    alt="restaurant table complete with cutlery and glasses" width="100%" height="auto">
             </div>
         </div>
 
         <div class="menu-right">
             <div class="col-2"></div>
+        </div>
+
+        <div class="buttonContainer">
+            <div class="col-6">
+                <button class="buttonMenu"><a href="../reservations/reservations.html">Reservations</a></button>
+            </div>
+        </div>
+
+        <div class="buttonContainer">
+            <div class="col-6">
+                <button class="buttonMenu"><a href="../contact_us/contact_us.html">Find Us</a></button>
+            </div>
         </div>
     </main>
 

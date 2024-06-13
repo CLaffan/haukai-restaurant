@@ -29,30 +29,29 @@
   [class*="col-"] {
     width: 100%;
   }
-  div.left {display: none;}
-  div.right {display: none;}
+  div.contactLeft {display: none;}
+  div.contactRight {display: none;}
   div.menu-left {display: none;}
   div.menu-right {display: none;}
 }
 
 .logo{
   width: 100%;
-  height: 250px;
+  max-height: 250px;
   object-fit: contain;
 }
 
 h1, h2, h3, h5 {
-  font-family: 'Rock Salt';
+  font-family: Copperplate, Papyrus, fantasy;
   text-align: center;
-  color: #c8b8d8;
+  color: #8CA6A7;
 }
 
 body {
-  font-family: 'Roboto';
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 15px;
   background-color: black;
-  color: white;
-  cursor: pointer;
+  color: #8CA6A7;
 }
 
 .about-img {
@@ -63,120 +62,181 @@ body {
   float: right;
 }
 
-.nav {
-  .col-12 {background-color: #70587c;}
-}
-
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.topnav {
   overflow: hidden;
-  background-color: #70587c;
+  background-color: #8CA6A7;
 }
 
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-  font-family: 'Roboto';
+.topnav a {
+  float: left;
   display: block;
   color: black;
   text-align: center;
-  padding: 10px 12px;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
+}
+.topnav
+
+.topnav a:link {
+  color: black;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #c8b8d8;}
+.topnav a:visited {
+  color: black;
+}
 
-ul.topnav li a.active {background-color: #502f4c;}
+.topnav a:hover {
+  background-color: #8CA6A7;
+  color: black;
+}
 
-ul.topnav li.right {float: right;}
+.topnav a:active {
+  background-color: #8CA6A7;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 div.main{ /*used for text area*/
   width: 100%;
-  color: #c8b8d8;
-  h1 {text-align: center;}
-  h2 {text-align: center;}
+  color: #8CA6A7;
   p {text-align: center;}
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    object-fit: cover;
-  }
+}
+
+.imgMain {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 350px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.imgMenu {
+  width: 100%; 
+  height: auto;
+  object-fit: contain;
 }
 
 .button {
-  font-family: 'Roboto';
-  object-position: center;
-  background-color: #502f4c; 
+  font-family: "Trebuchet MS", Helvetica, sans-serif;;
+  background-color: #8CA6A7; 
   border: none;
-  border-radius: 12px;
   color: black;
-  padding: 10px;
+  width: 50%;
+  padding: 25px;
   text-align: center;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
 }
 
-.button-menu {
-  justify-self: center;
-  font-family: 'Roboto';
-  background-color: #502f4c; 
+.buttonConRes {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;;
+  background-color: #8CA6A7; 
   border: none;
   color: black;
+  padding: 25px;
   text-align: center;
   text-decoration: none;
-  font-size: 15px;
+  display: block;
+  width: 50%;
+  font-size: 16px;
   cursor: pointer;
+  margin: auto;
+}
+
+.buttonMenu {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;;
+  background-color: #8CA6A7; 
+  border: none;
+  color: black;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.buttonTop {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: #8CA6A7;
+  color: black;
 }
 
 /*styling for all links on page*/
+
+/*unvisited link*/
 a:link {
-  color: white;
+  color: initial;
   background-color: transparent;
   text-decoration: none;
 }
 
+/* visited link */
+a:visited {
+  color: initial;
+  text-decoration: none;
+}
 
-
-/*styling for all links on page*/
+/*mouse over link and color will change*/
 a:hover {
-  color: #70587c;
+  color: #833AB4;
   background-color: transparent;
   text-decoration: none;
 }
 
-/*styling for all links on page*/
+/*selected link*/
 a:active {
-  color: #c8b8d8;
+  color: initial;
   background-color: transparent;
   text-decoration: none;
 }
 
 /*styling the footer across all pages*/
 .footer-left{ 
-  color: #c8b8d8;
+  color: #8CA6A7;
   text-align: center;
 }
 
 /*styling the footer across all pages*/
 .footer-mid{ 
-  color: #c8b8d8;
+  color: #8CA6A7;
   text-align: center;
 }
 
 /*styling the footer across all pages*/
 .footer-right{ 
-  color: #c8b8d8;
+  color: #8CA6A7;
   text-align: center;
 }
 
@@ -189,9 +249,13 @@ a:active {
 }
 
 /* Add a hover effect for links */
-.fa:hover {
-  opacity: 0.7;
-}
+.fa:hover {opacity: 0.7;}
+
+.fa:link {color: #8CA6A7;}
+
+.fa:visited {color: #8CA6A7;}
+
+.fa:active {color: #8CA6A7;}
 
 /* Set a specific color for each brand */
 
@@ -218,12 +282,18 @@ a:active {
   p {text-align: center;}
 }
 
+.imgMenu {
+  width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+}
+
 /*table properties for menu - listed seperatly if changes need to be made*/
 .appetizers {
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
-  background-color: #c8b8d8;
+  background-color: #8CA6A7;
   color: black;
   width: 100%;
   margin-left: auto;
@@ -234,7 +304,7 @@ a:active {
 .mains {
   border: 1px solid;
   text-align: center;
-  background-color: #c8b8d8;
+  background-color: #8CA6A7;
   color: black;
   width: 100%;
   margin-left: auto;
@@ -246,7 +316,7 @@ a:active {
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
-  background-color: #c8b8d8;
+  background-color: #8CA6A7;
   color: black;
   width: 100%;
   margin-left: auto;
@@ -257,7 +327,7 @@ a:active {
 .red-wine {
   border: 1px solid;
   text-align: center;
-  background-color: #c8b8d8;
+  background-color: #8CA6A7;
   color: black;
   width: 100%;
   margin-left: auto;
@@ -269,7 +339,7 @@ a:active {
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
-  background-color: #c8b8d8;
+  background-color: #8CA6A7;
   color: black;
   width: 100%;
   margin-left: auto;
@@ -293,7 +363,7 @@ a:active {
   border: 1px solid;
   border-collapse: collapse;
   text-align: center;
-  background-color: #c8b8d8;
+  background-color: #8CA6A7;
   color: black;
   width: 100%;
   margin-left: auto;
@@ -332,7 +402,7 @@ a:active {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #c8b8d8;
+  background-color: #8CA6A7;
 }
 
 /* When you mouse over the container, fade in the overlay title - for local cuisine images */
@@ -341,7 +411,7 @@ a:active {
 /* text for local cuisine images*/
 .text {
   color: black;
-  font-family: 'Roboto';
+  font-family: "Trebuchet MS", Helvetica, sans-serif;;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -352,8 +422,10 @@ a:active {
 
 .contact-map {
   align-items: center;
-  color: #c8b8d8;
+  color: #8CA6A7;
 }
+
+
 
 
 
