@@ -33,7 +33,6 @@
   div.contactRight {display: none;}
   div.menu-left {display: none;}
   div.menu-right {display: none;}
-  div.buttonContainer {flex-direction: column;}
 }
 
 .logo{
@@ -149,7 +148,7 @@ div.main{ /*used for text area*/
   background-color: #8CA6A7; 
   border: none;
   color: black;
-  width: 50%;
+  width: 40px;
   padding: 25px;
   text-align: center;
   text-decoration: none;
