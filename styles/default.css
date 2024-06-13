@@ -193,6 +193,12 @@ div.main{ /*used for text area*/
   color: black;
 }
 
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
 /*styling for all links on page*/
 
 /*unvisited link*/
