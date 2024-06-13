@@ -33,6 +33,7 @@
   div.contactRight {display: none;}
   div.menu-left {display: none;}
   div.menu-right {display: none;}
+  div.buttonContainer {flex-direction: column;}
 }
 
 .logo{
